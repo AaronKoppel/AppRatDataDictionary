@@ -1,0 +1,275 @@
+ID1,ID2,Name,Description,Type,Values,Codes,Required?,Example,Notes
+1,1.1.1,readiness_assessment,"completion of the application
+rationalization readiness assessment",integer,"true
+false","0
+1",yes,1,
+2,1.2.1,identify_requirements,identification of applications performing core mission services and applications providing support or other supplementary functions,integer,"true
+false","0
+1",yes,1,1 indicates that agency has developed a Requirements Landscape
+3,1.3.1,questionnaire,"creation of agency-specific list of questions that captures all relevant financial, business, and technical information and reporting requirements for each application",integer,"true
+false","0
+1",yes,1,Questionnaire provides the foundation for Application Rationalization
+4,2.1.1,questionnaires_sent,number of in-scope program offices that received the same questionnaire,integer,0-100,0-100,yes,4,
+5,2.2.1,CPIC_report,determination of inventory discrepancy between questionnaire responses and CPIC report(s),integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+6,2.2.2,financial_reporting_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via financial reporting tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+7,2.2.3,authorization_to_operate_lists_and_management_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via authorization to operate lists and management tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+8,2.2.4,cybersecurity_assessment_and_management_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via cybersecurity assessment and management tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+9,2.2.5,SLO_tools_and_inventories,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via SLO tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+10,2.2.6,CMDB_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via CDDB tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+11,2.2.7,CDM_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via CDM tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+12,2.2.8,COOP_and_DR_plans,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via COOP and DR plans,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+13,2.2.9,DCIM_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via DCIM,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+14,2.2.10,data_management_systems,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via data management systems,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+15,2.2.11,hardware_tracking_systems,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via hardware tracking systems,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+16,2.2.12,licenses_SLAs,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via licenses and SLAs,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+17,2.2.13,security_operations_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via security operations tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+18,2.2.14,SAM_tools,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via security and operations tools,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+19,2.2.15,virtualization_management_system,determination of inventory discrepancy between questionnaire responses and inventory as ascertained via virtualization management systems,integer,"true
+false","0
+1",yes,1,1 indicates a disparity between questionnaire responses and information from existing inventory sources
+20,2.3.1,application_onboarding,"creation of a new application onboarding process, wherein the relevant information captured in the questionnaire is reported for all new applications purchased from vendors or developed by or for the agency",integer,"true
+false","0
+1",yes,1,1 confirms creation of application onboarding process
+21,3.1.1,effectiveness,the degree to which an application is a solution for the goal agencies are trying to achieve,integer,"very low effectiveness
+low effectiveness
+moderate effectiveness
+high effectiveness
+very high effectiveness","1
+2
+3
+4
+5",yes,5,Likert scale
+22,3.1.2,mission_criticality,the degree to which an application is critical in supporting and executing the agencies’ mission,integer,"very low mission criticality
+low mission criticality
+moderate mission criticality
+high mission criticality
+very high mission criticality","1
+2
+3
+4
+5",yes,2,Likert scale
+23,3.1.3,utilization,the degree to which an application is used,integer,"very low usage
+low usage
+moderate usage
+strong usage
+high usage","1
+2
+3
+4
+5",yes,4,Likert scale
+24,3.1.4,complexity,"the degree of customization, unique features, and functions enabled by an
+application",integer,"very low complexity
+low complexity
+moderate complexity
+high complexity
+very high complexity","1
+2
+3
+4
+5",yes,3,Likert scale
+25,3.1.5,usability,the degree of ease for the user to operate or learn how to use an application,integer,"very low usability
+low usability
+moderate usability
+high usability
+very high usability","1
+2
+3
+4
+5",yes,4,Likert scale
+26,3.1.6,technical_requirements_bandwidth,"the level of bandwidth required for an application to run, in megabits per second (mbps)",integer,0-1000,0-1000,yes,500,rounded to nearest whole number
+27,3.1.7,technical_requirements_data,"the level of data required for an application to run, in petabytes (PB)",floating-point,0.00-1000.00,0.00-1000.00,yes,10.00,in petabytes
+28,3.1.8,version_control,number of official application updates within a given year,integer,1-100,1-100,yes,1,rounded to whole number
+29,3.1.9,dependencies_upstream_exist,"determination of the presence of code, databases, and functionality on which the application depends",integer,"true
+false","0
+1",yes,2,
+30,3.1.10,dependencies_downstream_exist,"determination of the presence of the code, databases, and functionality that depend on the application",integer,"true
+false","0
+1",yes,1,
+31,3.1.11,scalability_adaptability,the degree to which an application can be scaled to onboard new users and can it be augmented to fit the needs of new user groups,integer,"very low scalability/adaptability
+low scalability/adaptability
+moderate scalability/adaptability
+high scalability/adaptability
+very high scalability/adaptability","1
+2
+3
+4
+5",yes,3,Likert scale
+32,3.1.12,security_standards,the degree to which an application is protected against security attacks and conforms to agency risk tolerance models.,integer,"very low security standards
+low security standards
+moderate security standards
+high security standards
+very high security standards","1
+2
+3
+4
+5",yes,4,Likert scale
+33,3.2.1,dependencies_upstream_identity,"determination of the code, databases, and functionality on which the application depends",integer,"true
+false","0
+1",yes,1,
+34,3.2.2,dependencies_downstream_identity,"determination of the code, databases, and functionality that depend on the application",integer,"true
+false","0
+1",yes,1,
+35,3.3.1,duplication,review of the application inventory for duplication ,integer,"true
+false","0
+1",yes,1,
+36,4.0.1,TCO,the sum of current-state direct and indirect costs associated with owning and operating an application,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,2000000,USD
+37,4.1.1,internal_labor_OpEx,"operating expenditures associated with internal labor force, including wages, benefits, expenses, occupancy, and other expenses",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+38,4.1.2,external_labor_OpEx,"operating expenditures associated with external labor force, including contractor fees, travel, and other expenses",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+39,4.1.3,outside_services_OpEx,"operating expenditures associated with outside services, including consulting, managed service providers, and cloud service providers",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+40,4.1.4,consulting_outside_services_OpEx,operating expenditures associated with external consulting services,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+41,4.1.5,managed_service_providers_outside_services_OpEx,"operating expenditures associated with external, managed service providers",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+42,4.1.6,cloud_service_providers_outside_services_OpEx,"operating expenditures associated with external cloud service providers, including IaaS, PaaS, and SaaS",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+43,4.1.7,software_OpEx,"operating expenditures associated with software, including non-capitalized software purchases, leases, maintenance and support, and depreciation",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+44,4.1.8,expense_software_OpEx,operating expenditures associated with non-capitalized software purchases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+45,4.1.9,licensing_software_OpEx,operating expenditures associated with non-SaaS software licensing,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+46,4.1.10,maintenance_support_software_OpEx,operating expenditures associated with software maintenance and support,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+47,4.1.11,depreciation_software_OpEx,depreciation of capitalized software purchases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+48,4.1.12,hardware_OpEx,"operating expenditures associated with physical hardware assets, including non-capitalized hardware purchases, leases, maintenance and support, and depreciation",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+49,4.1.13,expense_hardware_OpEx,operating expenditures associated with non-capitalized hardware purchases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+50,4.1.14,lease_hardware_OpEx,operating expenditures associated with hardware leases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+51,4.1.15,maintenance_support_hardware_OpEx,operating expenditures associated with hardware maintenance and support,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+52,4.1.16,depreciation_hardware_OpEx,depreciation of capitalized hardware purchases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+53,4.1.17,facilities_and_power_OpEx,"operating expenditures associated with facilities and power, including operating expenses, leases, maintenance and support, and depreciation",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+54,4.1.18,expense_facilities_and_power_OpEx,"expenses associated with space, power, and security, and other miscellaneous operating
+expenses",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+55,4.1.19,lease_facilities_and_power_OpEx,operating expenditures associated with data center leases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+56,4.1.20,maintenance_and_support_facilities_and_power_OpEx,operating expenditures associated with data center maintenance and support,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+57,4.1.21,depreciation_facilities_and_power_OpEx,data center depreciation related to facility build and leasehold improvements,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+58,4.1.22,telecom_OpEx,"operating expenditures associated with telecom, including expenses, leases, maintenance and support, and depreciation",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+59,4.1.23,expense_telecom_OpEx,"operating expenses associated with space, power, and security, and other miscellaneous operating
+expenses",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+60,4.1.24,lease_telecom_OpEx,operating expenditures associated with telecom leases,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+61,4.1.25,maintenance_and_support_telecom_OpEx,operating expenditures associated with telecom maintenance and support,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+62,4.1.26,depreciation_telecom_OpEx,"depreciation of capitalized telecom
+expenditures",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+63,4.1.27,other_OpEx,miscellaneous operating expenditures,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+64,4.1.28,internal_services_OpEx,charges from other intragovernmental groups that provide shared services,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+65,4.1.29,internal_labor_CapEx,capitalized expenditures for internal labor,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+66,4.1.30,external_labor_CapEx,capitalized expenditures for external labor,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+67,4.1.31,hardware_CapEx,capitalized hardware expenditures,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+68,4.1.32,software_CapEx,capitalized software license expenditures,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+69,4.1.33,outside_services_CapEx,capitalized expenditures for outside services,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+70,4.1.34,facilities_and_power_CapEx,"capitalized expenditures related to land and facilities purchases, and to capital improvements",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+71,4.1.35,telecom_CapEx,capitalized telecom expenditures,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+72,4.1.36,data_center_IT_Tower,expenditures associated with purpose-built facilities for computer equipment,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+73,4.1.37,enterprise_data_center_IT_Tower,expenditures associated with purpose-built facilities required to operate and protect data centers,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+74,4.1.38,other facilities_data_center_IT_Tower,expenditures associated with general purpose office space/buildings used to house IT equipment,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+75,4.1.39,compute_IT_Tower,"expenditures associated with general and special-purpose devices and software, including direct costs of hardware, software, labor, and outside support services",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+76,4.1.40,servers_compute_IT_Tower,"expenditures associated with physical and virtual servers, including direct costs of hardware, software, labor, and outside support services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+77,4.1.41,unix_compute_IT_Tower,"expenditures associated with servers that run Unix-based operating systems, including direct costs of hardware, software, labor, and outside support services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+78,4.1.42,midrange_compute_IT_Tower,"expenditures associated with servers running on an IBM AS/400 platform, including direct costs of hardware, software, labor, and outside support services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+79,4.1.43,converged_infrastructure_compute_IT_Tower,"expenditures associated with purpose-built appliances that combine compute, storage,
+and network capabilities into a single package",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+80,4.1.44,high_performance_compute_IT_Tower,expenditures associated with HPC,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+81,4.1.45,mainframe_compute_IT_Tower,expenditures associated with purpose-built mainframe computers,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+82,4.1.46,storage_IT_Tower,"expenditures associated with centralized storage for all applications, excluding internal storage on servers and end-user devices",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+83,4.1.47,online_storage_IT_Tower,"expenditures associated with online storage resources required for distributed compute infrastructure, including hardware, software, and labor costs.",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+84,4.1.48,offline_storage_IT_Tower,"expenditures associated with offline storage resources required for archive, backup, and recovery to support distributed compute infrastructure",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+85,4.1.49,mainframe_online_storage_IT_Tower,"expenditures associated with mainframe storage arrays, including direct costs of required hardware, software, and labor.",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+86,4.1.50,mainframe_offline_storage_IT_Tower,"expenditures associated with offline storage resources for archive, backup, and recovery processes to support mainframe storage",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+87,4.1.51,network_IT_Tower,"expenditures associated with data and voice equipment, and corresponding transport methods",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+88,4.1.52,LAN_WAN_network_IT_Tower,"expenditures associated with LAN and WAN equipment, labor, and support services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+89,4.1.53,voice_network_IT_Tower,expenditures associated with on-premises voice resources,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+90,4.1.54,transport_network_IT_Tower,expenditures associated with data and voice network circuits and corresponding facilities and services,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+91,4.1.55,platform_IT_Tower,expenditures associated with distributed and mainframe databases,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+92,4.1.56,database_platform_IT_Tower,"expenditures associated with distributed database services that emphasize the physical database, including DBAs, DBMS, tools, and operational support",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+93,4.1.57,middleware_platform_IT_Tower,"expenditures associated with distributed platform, application, and system integration resources",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+94,4.1.58,mainframe_database_platform_IT_Tower,"expenditures associated with mainframe database services that emphasize the physical database, including DBAs, DBMS, tools, and operational support",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+95,4.1.59,mainframe_middleware_platform_IT_Tower,"expenditures associated with mainframe platform, application, and system integration resources",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+96,4.1.60,container_orchestration_platform_IT_Tower,expenditures associated with tools and resources required for container orchestration,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+97,4.1.61,big_data_platform_IT_Tower,"expenditures associated with integrating, managing, and analyzing big data",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+98,4.1.62,central_print_output_IT_Tower,expenditures associated with central printing services,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+99,4.1.63,end_user_IT_Tower,expenditures associated with end user devices and support for end users,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+100,4.1.64,workspace_end_user_IT_Tower,"expenditures associated with desktop and laptop computers, monitors, personal printers, and other peripherals",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+101,4.1.65,mobile_end_user_IT_Tower,"expenditures associated with smartphones, tablets, and apps",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+102,4.1.66,end_user_software_end_user_IT_Tower,expenditures associated with the software used by individuals to create and collaborate on documents and other content,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+103,4.1.67,network_printers_end_user_IT_Tower,expenditures associated with network (non-personal) printers,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+104,4.1.68,conference_AV_end_user_IT_Tower,expenditures associated with audio and video conferencing equipment,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+105,4.1.69,help_desk_end_user_IT_Tower,expenditures associated with a centralized Tier 1 IT help desk,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+106,4.1.70,deskside_support_end_user_IT_Tower,expenditures associated with deskside support to resolve IT issues,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+107,4.1.71,application_IT_Tower,"expenditures associated with application development, support and operations, and licensing, maintenance, and support ",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+108,4.1.72,development_application_IT_Tower,"expenditures associated with application analysis, design, development, code, test, release packaging services, and quality assurance",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+109,4.1.73,support_operations_application_IT_Tower,expenditures associated the operation and support of existing applications,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+110,4.1.74,business_software_IT_Tower,"expenditures associated with licensing, maintenance, and support of off-the-shelf business software",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+111,4.1.75,delivery_IT_Tower,"expenditures associated with enterprise-wide monitoring, support, management, and operations",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+112,4.1.76,services_management_delivery_IT_Tower,"expenditures associated with incident, problem, and change management activities, excluding Tier 1 help desk activities",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+113,4.1.77,program_product_project_management_delivery_IT_Tower,"expenditures associated with managing and supporting IT-related projects, and with continuous development of IT-related products",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+114,4.1.78,client_management_delivery_IT_Tower,expenditures associated with IT account managers or other similar personnel,floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+115,4.1.79,operations_center_delivery_IT_managemnet,"expenditures associated with a centralized IT operations center, including monitoring and intervention activities",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+116,4.1.80,security_compliance_IT_Tower,expenditures associated with IT security compliance and disaster recovery,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+117,4.1.81,security_securrity_compliance_IT_Tower,"expenditures associated with establishing, implementing, and controlling security policy, processes, and means, determining compliance, responding to security breaches, and maintaining real-time operational security",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+118,4.1.82,compliance_secuity_compliance_IT_Tower,"expenditures associated with establishing, implementing, and controlling policy, processes, and means, and measuring compliance in accordance with legal and regulatory requirements",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+119,4.1.83,dr_security_compliance_IT_Tower,"expenditures associated with disaster recovery, including activities related to policy, processes, means, failover facilities, and testing",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+120,4.1.84,IT_management_IT_Tower,"expenditures associated with IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+121,4.1.85,IT_management_strategic_planning_IT_management_IT_Tower,"expenditures associated with IT management and strategic planning, typically including the CIO, senior IT leaders, and additional administrative support",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+122,4.1.86,enterprise_arch_IT_management_IT_Tower,"expenditures associated with enterprise architecture services, including activities to help standardize, integrate, and improve the efficiency of IT solutions",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+123,4.1.87,IT_Finance_IT_management_IT_Tower,"expenditures associated with IT finance including planning, budgeting, spend management and chargeback of IT expenditures, and the costing of IT products and services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+124,4.1.88,IT_vendor_management_IT_management_IT_Tower,"expenditures associated with IT vendor management, including vendor selection, contract management, oversight, and performance management",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
+125,4.1.89,certifications,expenditures related to employee certifications,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+126,4.1.90,reassignments,expenditures related to employee reassignments,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+127,4.1.91,HR,HR-related expenditures associated with onboarding new employees and leveraging HR offices for change management processes,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+128,4.1.92,IT_training,expenditures associated with training of current employees and hiring of new employees,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+129,4.1.93,software_patching,expenditures associated with manual software patching,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+130,4.1.94,ATO,expenditures associated with attaining ATO(s),floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+131,4.2.1,outlier,presence of cost outlier(s) in the application inventory,integer,"true
+false","0
+1",yes,1,1 confirms presence in the agency's IT portfolio
+132,5.1.1,scoring_methodology,scoring methodology used to implement an application rationalization strategy,text,,,yes,"Gartner’s Tolerate, Invest, Migrate, Eliminate (TIME) methodology",Agency-determined methodology
+133,5.2.1,application_score,agency-defined ranking or merit scale,integer,0-100000000000,0-100000000000,yes,5,In agency-determined format
+134,5.3.1,communications_strategy,"creation of a communications strategy that enables stakeholders to learn about the scoring process, understand how information will be shared, and provide feedback",integer,"true
+false","0
+1",yes,1,
+135,6.1.1,review,presence of applications with low business value and high technical fit,integer,"true
+false","0
+1",yes,1,1 confirms presence in the agency's IT portfolio
+136,6.1.2,reward,presence of applications with high business value and high technical fit,integer,"true
+false","0
+1",yes,1,1 confirms presence in the agency's IT portfolio
+137,6.1.3,refresh,presence of applications with high business value and low technical fit,integer,"true
+false","0
+1",yes,1,1 confirms presence in the agency's IT portfolio
+138,6.1.4,remove,presence of applications with low business value and low technical fit,integer,"true
+false","0
+1",yes,1,1 confirms presence in the agency's IT portfolio
+139,6.2.1,hosting_options,"determination of hosting options based on future-state TCO, improved service
+delivery, and customer satisfaction",integer,"true
+false","0
+1",yes,1,
+140,6.3.1,assessing_current-state_cost,up-front costs associated with assessing the current-state,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+141,6.3.2,planning_migration_costs,up-front costs associated with migration planning,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+142,6.3.3,stakeholder_costs,up-front costs associated with attaining stakeholder buy-in,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+143,6.3.4,parallel_systems_costs,up-front costs associated with running parallel systems,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+144,6.3.5,vendor_management_costs,up-front costs associated with vendor management,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+145,6.3.6,training_reskilling_costs,up-front costs associated with training and reskilling,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+146,6.3.7,refactoring_replatforming_cost,up-front costs associated with refactoring and replatforming existing applications,floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+147,6.4.1,migration_strategy,"creation of an IT migration strategy that includes a communications strategy, a vendor management plan, a workforce development plan, and a migration timeline, and that attains buy-in from key stakeholders",integer,"true
+false","0
+1",yes,1,
