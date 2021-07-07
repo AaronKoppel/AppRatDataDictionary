@@ -3,9 +3,9 @@
 ## Table of Contents
 
  - [Introduction](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#introduction)
- - Prerequisites
- - Usage
- - References
+ - [Prerequisites](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#prerequisites)
+ - [Usage](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#usage)
+ - [References](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#references)
 
 ## Introduction
 
