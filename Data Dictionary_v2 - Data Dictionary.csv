@@ -1,4 +1,4 @@
-ID1,ID2,Name,Description,Type,Values,Codes,Required?,Example,Notes
+<th>ID1,ID2,Name,Description,Type,Values,Codes,Required?,Example,Notes</th>
 1,1.1.1,readiness_assessment,"completion of the application
 rationalization readiness assessment",integer,"true
 false","0
@@ -228,7 +228,8 @@ and network capabilities into a single package",floating-point,0.00-100000000000
 117,4.1.81,security_securrity_compliance_IT_Tower,"expenditures associated with establishing, implementing, and controlling security policy, processes, and means, determining compliance, responding to security breaches, and maintaining real-time operational security",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
 118,4.1.82,compliance_secuity_compliance_IT_Tower,"expenditures associated with establishing, implementing, and controlling policy, processes, and means, and measuring compliance in accordance with legal and regulatory requirements",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
 119,4.1.83,dr_security_compliance_IT_Tower,"expenditures associated with disaster recovery, including activities related to policy, processes, means, failover facilities, and testing",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
-120,4.1.84,IT_management_IT_Tower,"expenditures associated with IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
+120,4.1.84,IT_management_IT_Tower,"expenditures associated with IT management and strategic planning, enterprise architecture, IT finance, and IT vendor management
+",floating-point,0.00-100000000000.00,0.00-100000000000.00,yes,600000,USD
 121,4.1.85,IT_management_strategic_planning_IT_management_IT_Tower,"expenditures associated with IT management and strategic planning, typically including the CIO, senior IT leaders, and additional administrative support",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
 122,4.1.86,enterprise_arch_IT_management_IT_Tower,"expenditures associated with enterprise architecture services, including activities to help standardize, integrate, and improve the efficiency of IT solutions",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
 123,4.1.87,IT_Finance_IT_management_IT_Tower,"expenditures associated with IT finance including planning, budgeting, spend management and chargeback of IT expenditures, and the costing of IT products and services",floating-point,0.00-100000000000.00,0.00-100000000000.00,no,600000,USD
