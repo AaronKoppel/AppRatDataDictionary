@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
- - Introduction
+ - [Introduction](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#introduction)
  - Prerequisites
  - Usage
  - References
