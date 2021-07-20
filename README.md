@@ -59,7 +59,7 @@ It consists of 9 columns:
 
 It consists of 147 data elements listed in columns.
 
-## Technical Schema
+## Technical_Schema
 
 ## References
 
