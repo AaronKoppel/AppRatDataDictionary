@@ -5,7 +5,7 @@
  - [Introduction](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#introduction)
  - [Prerequisites](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#prerequisites)
  - [Usage](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#usage)
- - [Technical Schema](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#technical_schema)
+ - [Technical Schema](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#technical-schema)
  - [References](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#references)
 
 ## Introduction
@@ -59,7 +59,7 @@ It consists of 9 columns:
 
 It consists of 147 data elements listed in columns.
 
-## Technical_Schema
+## Technical Schema
 
 ## References
 
