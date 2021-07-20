@@ -61,6 +61,8 @@ It consists of 147 data elements listed in columns.
 
 ## Technical Schema
 
+A JSON schema for machine-readable data interchanges is provided, along with test data which can be used to validate it.
+
 ## References
 
 Data Center and Cloud Optimization Initiative PMO, The Application Rationalization Playbook § (n.d.).
