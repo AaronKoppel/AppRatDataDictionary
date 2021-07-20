@@ -1,0 +1,22 @@
+{
+  "$id": "https://management.cio.gov/schema/json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Technical Schema for Application Rationalization Data Dictionary",
+  "type": "array",
+  "uniqueItems": true,
+  "properties": {
+    "id1": {
+      "type": "number",
+      "description": "The unique identifier for a data element."
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the data element."
+    },
+    "value": {
+      "description": "Agency-specific data",
+      "type": ["number", "string"],
+      "minimum": 0
+    }
+  }
+}
