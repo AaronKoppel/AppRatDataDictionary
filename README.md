@@ -16,7 +16,7 @@ The Application Rationalization Data Dictionary is a supplement to the Applicati
 
 ## Prerequisites
 
-The Application Rationalization Data Dictionary is a spreadsheet in .xltx format. As users begin to enter application-specific data, they should save it in .xlsx format.
+The Application Rationalization Data Dictionary is a spreadsheet in .csv format and is best viewed in spreadsheet software. It may also be viewed in GitHub directly.
 
 ## Usage
 
