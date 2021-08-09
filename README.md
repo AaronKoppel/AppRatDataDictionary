@@ -20,18 +20,19 @@ The Application Rationalization Data Dictionary is a spreadsheet in .csv format 
 
 ## Usage
 
-It consists of 9 columns:
+It consists of 10 columns:
 
 **ID1**
-- The unique integer, 1 to 147, associated with a given data element
+- The unique integer, 1 to 176, associated with a given data element
 
 **ID2**
 - Structured in three parts: before the first decimal, between the first and second decimal, and after the second decimal
 - Corresponds to the structure the Application Rationalization Playbook
 - The number before the first decimal corresponds to the step in Application Rationalization Playbook
 - The number between the first and second decimal corresponds to the sub-step in the Application Rationalization Playbook
-- The number after the second decimal indicates its occurrence within a given sub-step in the Application Rationalization Playbook
-- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy.
+- The number after the second decimal indicates its occurrence within a given sub-step in the Application Rationalization 
+- 3.1.13 to 3.1.35 draw from the five Functions of NIST's Cybersecurity Framework
+- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy
 
 **Name**
 - Name of the data element
@@ -57,7 +58,7 @@ It consists of 9 columns:
 **Notes**
 - Additional information of interest for users
 
-It consists of 147 data elements listed in columns.
+It consists of 176 data elements listed in columns.
 
 ## Technical Schema
 
