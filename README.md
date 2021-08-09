@@ -12,7 +12,7 @@
 
 Current Maintainer: GSA’s Data Center and Cloud Optimization Initiative (DCCOI) PMO at <dccoi@gsa.gov>
 
-The Application Rationalization Data Dictionary is a supplement to the Application Rationalization Playbook to help agencies strategically and systematically identify business applications and determine which should be kept, replaced, retired, or consolidated. This resource establishes standards for data exchanges designed to manage application rationalization. Standards for data exchanges in turn allow users and agencies to explore and collaborate on their application rationalization data.
+The Application Rationalization Data Dictionary is a supplement to the Application Rationalization Playbook to help agencies strategically and systematically identify business applications and determine which should be kept, replaced, retired, or consolidated.<sup>[1](#footnote1)</sup> This resource establishes standards for data exchanges designed to manage application rationalization. Standards for data exchanges in turn allow users and agencies to explore and collaborate on their application rationalization data.
 
 ## Prerequisites
 
@@ -31,8 +31,8 @@ It consists of 10 columns:
 - The number before the first decimal corresponds to the step in Application Rationalization Playbook
 - The number between the first and second decimal corresponds to the sub-step in the Application Rationalization Playbook
 - The number after the second decimal indicates its occurrence within a given sub-step in the Application Rationalization 
-- 3.1.13 to 3.1.35 draw from the five Functions of NIST's Cybersecurity Framework
-- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy
+- 3.1.13 to 3.1.35 draw from the five Functions of NIST's Cybersecurity Framework <sup>[2](#footnote2)</sup> 
+- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy <sup>[3](#footnote3)</sup> 
 
 **Name**
 - Name of the data element
@@ -66,6 +66,8 @@ A JSON schema for machine-readable data interchanges is provided, along with tes
 
 ## References
 
-Data Center and Cloud Optimization Initiative Program Management Office, The Application Rationalization Playbook (2020). CIO Council. https://www.cio.gov/assets/files/Application-Rationalization-Playbook.pdf.
+<a name="footnote1">1.</a> Data Center and Cloud Optimization Initiative Program Management Office, The Application Rationalization Playbook (2020). CIO Council. https://www.cio.gov/assets/files/Application-Rationalization-Playbook.pdf.
 
-*TBM Taxonomy: Version 4.0*. TBM Council (2020, December 16). https://higherlogicdownload.s3.amazonaws.com/TBMCOUNCIL/c15d372f-9951-46c8-9c3f-213c696401b6/UploadedImages/TBM_Taxonomy_V4_0.pdf.
+<a name="footnote2">2.</a> National Institute of Standards and Technology, Cybersecurity Framework [Data file and code book] (2018). https://www.nist.gov/document/2018-04-16frameworkv11core1xlsx.
+
+<a name="footnote3">3.</a> *TBM Taxonomy: Version 4.0*. TBM Council (2020, December 16). https://higherlogicdownload.s3.amazonaws.com/TBMCOUNCIL/c15d372f-9951-46c8-9c3f-213c696401b6/UploadedImages/TBM_Taxonomy_V4_0.pdf.
