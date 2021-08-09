@@ -31,8 +31,8 @@ It consists of 10 columns:
 - The number before the first decimal corresponds to the step in Application Rationalization Playbook
 - The number between the first and second decimal corresponds to the sub-step in the Application Rationalization Playbook
 - The number after the second decimal indicates its occurrence within a given sub-step in the Application Rationalization 
-- 3.1.13 to 3.1.35 draw from the five Functions of NIST's Cybersecurity Framework <sup>[2](#footnote2)</sup> 
-- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy <sup>[3](#footnote3)</sup> 
+- 3.1.13 to 3.1.35 draw from the five Functions of NIST's Cybersecurity Framework<sup>[2](#footnote2)</sup> 
+- 4.1.1 to 4.1.88 draw from the Finance and IT Layers of the TBM Taxonomy<sup>[3](#footnote3)</sup> 
 
 **Name**
 - Name of the data element
