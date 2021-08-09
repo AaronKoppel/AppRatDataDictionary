@@ -1,0 +1,882 @@
+[
+  {
+    "id1": 1,
+    "name": "readiness_assessment",
+    "value": 0
+  },
+  {
+    "id1": 2,
+    "name": "identify_requirements",
+    "value": 0
+  },
+  {
+    "id1": 3,
+    "name": "questionnaire",
+    "value": 0
+  },
+  {
+    "id1": 4,
+    "name": "questionnaires_sent",
+    "value": 4
+  },
+  {
+    "id1": 5,
+    "name": "CPIC_report",
+    "value": 0
+  },
+  {
+    "id1": 6,
+    "name": "financial_reporting_tools",
+    "value": 0
+  },
+  {
+    "id1": 7,
+    "name": "authorization_to_operate_lists_and_management_tools",
+    "value": 0
+  },
+  {
+    "id1": 8,
+    "name": "cybersecurity_assessment_and_management_tools",
+    "value": 0
+  },
+  {
+    "id1": 9,
+    "name": "SLO_tools_and_inventories",
+    "value": 0
+  },
+  {
+    "id1": 10,
+    "name": "CMDB_tools",
+    "value": 0
+  },
+  {
+    "id1": 11,
+    "name": "CDM_tools",
+    "value": 0
+  },
+  {
+    "id1": 12,
+    "name": "COOP_and_DR_plans",
+    "value": 0
+  },
+  {
+    "id1": 13,
+    "name": "DCIM_tools",
+    "value": 0
+  },
+  {
+    "id1": 14,
+    "name": "data_management_systems",
+    "value": 0
+  },
+  {
+    "id1": 15,
+    "name": "hardware_tracking_systems",
+    "value": 0
+  },
+  {
+    "id1": 16,
+    "name": "licenses_SLAs",
+    "value": 0
+  },
+  {
+    "id1": 17,
+    "name": "security_operations_tools",
+    "value": 0
+  },
+  {
+    "id1": 18,
+    "name": "SAM_tools",
+    "value": 0
+  },
+  {
+    "id1": 19,
+    "name": "virtualization_management_system",
+    "value": 0
+  },
+  {
+    "id1": 20,
+    "name": "application_onboarding",
+    "value": 0
+  },
+  {
+    "id1": 21,
+    "name": "effectiveness",
+    "value": 5
+  },
+  {
+    "id1": 22,
+    "name": "mission_criticality",
+    "value": 2
+  },
+  {
+    "id1": 23,
+    "name": "utilization",
+    "value": 4
+  },
+  {
+    "id1": 24,
+    "name": "complexity",
+    "value": 3
+  },
+  {
+    "id1": 25,
+    "name": "usability",
+    "value": 4
+  },
+  {
+    "id1": 26,
+    "name": "technical_requirements_bandwidth",
+    "value": 500
+  },
+  {
+    "id1": 27,
+    "name": "technical_requirements_data",
+    "value": 10
+  },
+  {
+    "id1": 28,
+    "name": "version_control",
+    "value": 1
+  },
+  {
+    "id1": 29,
+    "name": "dependencies_upstream_exist",
+    "value": 0
+  },
+  {
+    "id1": 30,
+    "name": "dependencies_downstream_exist",
+    "value": 0
+  },
+  {
+    "id1": 31,
+    "name": "scalability_adaptability",
+    "value": 3
+  },
+  {
+    "id1": 32,
+    "name": "security_standards",
+    "value": 4
+  },
+  {
+    "id1": 33,
+    "name": "NIST_ID.AM",
+    "value": 0
+  },
+  {
+    "id1": 34,
+    "name": "NIST_ID.BE",
+    "value": 0
+  },
+  {
+    "id1": 35,
+    "name": "NIST_ID.GV",
+    "value": 0
+  },
+  {
+    "id1": 36,
+    "name": "NIST_ID.RA",
+    "value": 0
+  },
+  {
+    "id1": 37,
+    "name": "NIST_ID.RM",
+    "value": 0
+  },
+  {
+    "id1": 38,
+    "name": "NIST_ID.SC",
+    "value": 0
+  },
+  {
+    "id1": 39,
+    "name": "NIST_PR.AC",
+    "value": 0
+  },
+  {
+    "id1": 40,
+    "name": "NIST_PR.AT",
+    "value": 0
+  },
+  {
+    "id1": 41,
+    "name": "NIST_PR.DS",
+    "value": 0
+  },
+  {
+    "id1": 42,
+    "name": "NIST_PR.IP",
+    "value": 0
+  },
+  {
+    "id1": 43,
+    "name": "NIST_PR.MA",
+    "value": 0
+  },
+  {
+    "id1": 44,
+    "name": "NIST_PR.PT",
+    "value": 0
+  },
+  {
+    "id1": 45,
+    "name": "NIST_DE.AE",
+    "value": 0
+  },
+  {
+    "id1": 46,
+    "name": "NIST_DE.CM",
+    "value": 0
+  },
+  {
+    "id1": 47,
+    "name": "NIST_DE.DP",
+    "value": 0
+  },
+  {
+    "id1": 48,
+    "name": "NIST_RS.RP",
+    "value": 0
+  },
+  {
+    "id1": 49,
+    "name": "NIST_RS.CO",
+    "value": 0
+  },
+  {
+    "id1": 50,
+    "name": "NIST_RS.AN",
+    "value": 0
+  },
+  {
+    "id1": 51,
+    "name": "NIST_RS.MI",
+    "value": 0
+  },
+  {
+    "id1": 52,
+    "name": "NIST_RS.IM",
+    "value": 0
+  },
+  {
+    "id1": 53,
+    "name": "NIST_RC.RP",
+    "value": 0
+  },
+  {
+    "id1": 54,
+    "name": "NIST_RC.IM",
+    "value": 0
+  },
+  {
+    "id1": 55,
+    "name": "NIST_RC.CO",
+    "value": 0
+  },
+  {
+    "id1": 56,
+    "name": "RTO",
+    "value": 0
+  },
+  {
+    "id1": 57,
+    "name": "RTO_cost",
+    "value": 0
+  },
+  {
+    "id1": 58,
+    "name": "RPO",
+    "value": 0
+  },
+  {
+    "id1": 59,
+    "name": "RPO_cost",
+    "value": 0
+  },
+  {
+    "id1": 60,
+    "name": "RTA",
+    "value": 0
+  },
+  {
+    "id1": 61,
+    "name": "RTA_cost",
+    "value": 0
+  },
+  {
+    "id1": 62,
+    "name": "dependencies_upstream_identity",
+    "value": 1
+  },
+  {
+    "id1": 63,
+    "name": "dependencies_downstream_identity",
+    "value": 0
+  },
+  {
+    "id1": 64,
+    "name": "duplication",
+    "value": 0
+  },
+  {
+    "id1": 65,
+    "name": "TCO",
+    "value": 2000000
+  },
+  {
+    "id1": 66,
+    "name": "OpEx_internal_labor",
+    "value": 600000
+  },
+  {
+    "id1": 67,
+    "name": "OpEx_external_labor",
+    "value": 600000
+  },
+  {
+    "id1": 68,
+    "name": "OpEx_outside_services",
+    "value": 600000
+  },
+  {
+    "id1": 69,
+    "name": "OpEx_outside_services_consulting",
+    "value": 600000
+  },
+  {
+    "id1": 70,
+    "name": "OpEx_outside_services_managed_service_providers",
+    "value": 600000
+  },
+  {
+    "id1": 71,
+    "name": "OpEx_outside_services_cloud_service_providers",
+    "value": 600000
+  },
+  {
+    "id1": 72,
+    "name": "OpEx_software",
+    "value": 600000
+  },
+  {
+    "id1": 73,
+    "name": "OpEx_software_expense",
+    "value": 600000
+  },
+  {
+    "id1": 74,
+    "name": "OpEx_software_licensing",
+    "value": 600000
+  },
+  {
+    "id1": 75,
+    "name": "OpEx_software_maintenance_support",
+    "value": 600000
+  },
+  {
+    "id1": 76,
+    "name": "OpEx_software_depreciation",
+    "value": 600000
+  },
+  {
+    "id1": 77,
+    "name": "OpEx_hardware",
+    "value": 600000
+  },
+  {
+    "id1": 78,
+    "name": "OpEx_hardware_expense",
+    "value": 600000
+  },
+  {
+    "id1": 79,
+    "name": "OpEx_hardware_lease",
+    "value": 600000
+  },
+  {
+    "id1": 80,
+    "name": "OpEx_hardware_maintenance_support",
+    "value": 600000
+  },
+  {
+    "id1": 81,
+    "name": "OpEx_hardware_depreciation",
+    "value": 600000
+  },
+  {
+    "id1": 82,
+    "name": "OpEx_facilities_and_power",
+    "value": 600000
+  },
+  {
+    "id1": 83,
+    "name": "OpEx_facilities_and_power_expense",
+    "value": 600000
+  },
+  {
+    "id1": 84,
+    "name": "OpEx_facilities_and_power_lease",
+    "value": 600000
+  },
+  {
+    "id1": 85,
+    "name": "OpEx_facilities_and_power_maintenance_and_support",
+    "value": 600000
+  },
+  {
+    "id1": 86,
+    "name": "OpEx_facilities_and_power_depreciation",
+    "value": 600000
+  },
+  {
+    "id1": 87,
+    "name": "OpEx_telecom",
+    "value": 600000
+  },
+  {
+    "id1": 88,
+    "name": "OpEx_telecom_expense",
+    "value": 600000
+  },
+  {
+    "id1": 89,
+    "name": "OpEx_telecom_lease",
+    "value": 600000
+  },
+  {
+    "id1": 90,
+    "name": "OpEx_telecom_maintenance_and_support",
+    "value": 600000
+  },
+  {
+    "id1": 91,
+    "name": "OpEx_telecom_depreciation",
+    "value": 600000
+  },
+  {
+    "id1": 92,
+    "name": "OpEx_other",
+    "value": 600000
+  },
+  {
+    "id1": 93,
+    "name": "OpEx_internal_services",
+    "value": 600000
+  },
+  {
+    "id1": 94,
+    "name": "CapEx_internal_labor",
+    "value": 600000
+  },
+  {
+    "id1": 95,
+    "name": "CapEx_external_labor",
+    "value": 600000
+  },
+  {
+    "id1": 96,
+    "name": "CapEx_hardware",
+    "value": 600000
+  },
+  {
+    "id1": 97,
+    "name": "CapEx_software",
+    "value": 600000
+  },
+  {
+    "id1": 98,
+    "name": "CapEx_outside_services",
+    "value": 600000
+  },
+  {
+    "id1": 99,
+    "name": "CapEx_facilities_and_power",
+    "value": 600000
+  },
+  {
+    "id1": 100,
+    "name": "CapEx_telecom",
+    "value": 600000
+  },
+  {
+    "id1": 101,
+    "name": "IT_Tower_data_center",
+    "value": 600000
+  },
+  {
+    "id1": 102,
+    "name": "IT_Tower_data_center_enterprise",
+    "value": 600000
+  },
+  {
+    "id1": 103,
+    "name": "IT_Tower_data_center_other facilities",
+    "value": 600000
+  },
+  {
+    "id1": 104,
+    "name": "IT_Tower_compute",
+    "value": 600000
+  },
+  {
+    "id1": 105,
+    "name": "IT_Tower_compute_servers",
+    "value": 600000
+  },
+  {
+    "id1": 106,
+    "name": "IT_Tower_compute_unix",
+    "value": 600000
+  },
+  {
+    "id1": 107,
+    "name": "IT_Tower_compute_midrange",
+    "value": 600000
+  },
+  {
+    "id1": 108,
+    "name": "IT_Tower_compute_converged_infrastructure",
+    "value": 600000
+  },
+  {
+    "id1": 109,
+    "name": "IT_Tower_compute_high_performance",
+    "value": 600000
+  },
+  {
+    "id1": 110,
+    "name": "IT_Tower_compute_mainframe",
+    "value": 600000
+  },
+  {
+    "id1": 111,
+    "name": "IT_Tower_storage",
+    "value": 600000
+  },
+  {
+    "id1": 112,
+    "name": "IT_Tower_storage_online",
+    "value": 600000
+  },
+  {
+    "id1": 113,
+    "name": "IT_Tower_storage_offline",
+    "value": 600000
+  },
+  {
+    "id1": 114,
+    "name": "IT_Tower_storage_mainframe_online",
+    "value": 600000
+  },
+  {
+    "id1": 115,
+    "name": "IT_Tower_storage_mainframe_offline",
+    "value": 600000
+  },
+  {
+    "id1": 116,
+    "name": "IT_Tower_network",
+    "value": 600000
+  },
+  {
+    "id1": 117,
+    "name": "IT_Tower_network_LAN_WAN",
+    "value": 600000
+  },
+  {
+    "id1": 118,
+    "name": "IT_Tower_network_voice",
+    "value": 600000
+  },
+  {
+    "id1": 119,
+    "name": "IT_Tower_network_transport",
+    "value": 600000
+  },
+  {
+    "id1": 120,
+    "name": "IT_Tower_platform",
+    "value": 600000
+  },
+  {
+    "id1": 121,
+    "name": "IT_Tower_platform_database",
+    "value": 600000
+  },
+  {
+    "id1": 122,
+    "name": "IT_Tower_platform_middleware",
+    "value": 600000
+  },
+  {
+    "id1": 123,
+    "name": "IT_Tower_platform_mainframe_database",
+    "value": 600000
+  },
+  {
+    "id1": 124,
+    "name": "IT_Tower_platform_mainframe_middleware",
+    "value": 600000
+  },
+  {
+    "id1": 125,
+    "name": "IT_Tower_platform_container_orchestration",
+    "value": 600000
+  },
+  {
+    "id1": 126,
+    "name": "IT_Tower_platform_big_data",
+    "value": 600000
+  },
+  {
+    "id1": 127,
+    "name": "IT_Tower_output_central_print",
+    "value": 600000
+  },
+  {
+    "id1": 128,
+    "name": "IT_Tower_end_user",
+    "value": 600000
+  },
+  {
+    "id1": 129,
+    "name": "IT_Tower_end_user_workspace",
+    "value": 600000
+  },
+  {
+    "id1": 130,
+    "name": "IT_Tower_end_user_mobile",
+    "value": 600000
+  },
+  {
+    "id1": 131,
+    "name": "IT_Tower_end_user_end_user_software",
+    "value": 600000
+  },
+  {
+    "id1": 132,
+    "name": "IT_Tower_end_user_network_printers",
+    "value": 600000
+  },
+  {
+    "id1": 133,
+    "name": "IT_Tower_end_user_conference_AV",
+    "value": 600000
+  },
+  {
+    "id1": 134,
+    "name": "IT_Tower_end_user_help_desk",
+    "value": 600000
+  },
+  {
+    "id1": 135,
+    "name": "IT_Tower_end_user_deskside_support",
+    "value": 600000
+  },
+  {
+    "id1": 136,
+    "name": "IT_Tower_application",
+    "value": 600000
+  },
+  {
+    "id1": 137,
+    "name": "IT_Tower_application_application_development",
+    "value": 600000
+  },
+  {
+    "id1": 138,
+    "name": "IT_Tower_application_support_operations",
+    "value": 600000
+  },
+  {
+    "id1": 139,
+    "name": "IT_Tower_application_business_software",
+    "value": 600000
+  },
+  {
+    "id1": 140,
+    "name": "IT_Tower_delivery",
+    "value": 600000
+  },
+  {
+    "id1": 141,
+    "name": "IT_Tower_delivery_services_management",
+    "value": 600000
+  },
+  {
+    "id1": 142,
+    "name": "IT_Tower_delivery_program_product_project_management",
+    "value": 600000
+  },
+  {
+    "id1": 143,
+    "name": "IT_Tower_delivery_client_management",
+    "value": 600000
+  },
+  {
+    "id1": 144,
+    "name": "IT_Tower_delivery_operations_center",
+    "value": 600000
+  },
+  {
+    "id1": 145,
+    "name": "IT_Tower_security_compliance",
+    "value": 600000
+  },
+  {
+    "id1": 146,
+    "name": "IT_Tower_security_compliance_security",
+    "value": 600000
+  },
+  {
+    "id1": 147,
+    "name": "IT_Tower_secuity_compliance_compliance",
+    "value": 600000
+  },
+  {
+    "id1": 148,
+    "name": "IT_Tower_security_compliance_dr",
+    "value": 600000
+  },
+  {
+    "id1": 149,
+    "name": "IT_Tower_IT_management",
+    "value": 600000
+  },
+  {
+    "id1": 150,
+    "name": "IT_Tower_IT_management_IT_management_strategic_planning",
+    "value": 600000
+  },
+  {
+    "id1": 151,
+    "name": "IT_Tower_IT_management_enterprise_arch",
+    "value": 600000
+  },
+  {
+    "id1": 152,
+    "name": "IT_Tower_IT_management_IT_finance",
+    "value": 600000
+  },
+  {
+    "id1": 153,
+    "name": "IT_Tower_IT_management_IT_vendor_management",
+    "value": 600000
+  },
+  {
+    "id1": 154,
+    "name": "certifications",
+    "value": 600000
+  },
+  {
+    "id1": 155,
+    "name": "reassignments",
+    "value": 600000
+  },
+  {
+    "id1": 156,
+    "name": "HR",
+    "value": 600000
+  },
+  {
+    "id1": 157,
+    "name": "IT_training",
+    "value": 600000
+  },
+  {
+    "id1": 158,
+    "name": "software_patching",
+    "value": 600000
+  },
+  {
+    "id1": 159,
+    "name": "ATO",
+    "value": 600000
+  },
+  {
+    "id1": 160,
+    "name": "outlier",
+    "value": 0
+  },
+  {
+    "id1": 161,
+    "name": "scoring_methodology",
+    "value": "Gartner’s Tolerate, Invest, Migrate, Eliminate (TIME) methodology"
+  },
+  {
+    "id1": 162,
+    "name": "application_score",
+    "value": 5
+  },
+  {
+    "id1": 163,
+    "name": "communications_strategy",
+    "value": 0
+  },
+  {
+    "id1": 164,
+    "name": "review",
+    "value": 0
+  },
+  {
+    "id1": 165,
+    "name": "reward",
+    "value": 0
+  },
+  {
+    "id1": 166,
+    "name": "refresh",
+    "value": 0
+  },
+  {
+    "id1": 167,
+    "name": "remove",
+    "value": 0
+  },
+  {
+    "id1": 168,
+    "name": "hosting_options",
+    "value": 0
+  },
+  {
+    "id1": 169,
+    "name": "assessing_current-state_cost",
+    "value": 600000
+  },
+  {
+    "id1": 170,
+    "name": "planning_migration_costs",
+    "value": 600000
+  },
+  {
+    "id1": 171,
+    "name": "stakeholder_costs",
+    "value": 600000
+  },
+  {
+    "id1": 172,
+    "name": "parallel_systems_costs",
+    "value": 600000
+  },
+  {
+    "id1": 173,
+    "name": "vendor_management_costs",
+    "value": 600000
+  },
+  {
+    "id1": 174,
+    "name": "training_reskilling_costs",
+    "value": 600000
+  },
+  {
+    "id1": 175,
+    "name": "refactoring_replatforming_cost",
+    "value": 600000
+  },
+  {
+    "id1": 176,
+    "name": "migration_strategy",
+    "value": 0
+  }
+]
