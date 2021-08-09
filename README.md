@@ -62,7 +62,7 @@ It consists of 176 data elements listed in columns.
 
 ## Technical Schema
 
-A JSON schema for machine-readable data interchanges is provided, along with test data which can be used to validate it.
+A JSON schema for machine-readable data interchanges is provided, along with test data which can be used to validate it. The schema may be integrated into government-wide data collection efforts such as Integrated Data Collection (IDC), which enables the Office of Management and Budget (OMB) to oversee implementation of the Data Center Optimization Initative (DCOI). 
 
 ## References
 
