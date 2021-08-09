@@ -66,6 +66,6 @@ A JSON schema for machine-readable data interchanges is provided, along with tes
 
 ## References
 
-Data Center and Cloud Optimization Initiative PMO, The Application Rationalization Playbook § (n.d.).
+Data Center and Cloud Optimization Initiative Program Management Office, The Application Rationalization Playbook (2020). CIO Council. https://www.cio.gov/assets/files/Application-Rationalization-Playbook.pdf.
 
-“TBM Taxonomy.” TBM Council, December 16, 2020. https://higherlogicdownload.s3.amazonaws.com/TBMCOUNCIL/c15d372f-9951-46c8-9c3f-213c696401b6/UploadedImages/TBM_Taxonomy_V4_0.pdf.
+*TBM Taxonomy: Version 4.0*. TBM Council (2020, December 16). https://higherlogicdownload.s3.amazonaws.com/TBMCOUNCIL/c15d372f-9951-46c8-9c3f-213c696401b6/UploadedImages/TBM_Taxonomy_V4_0.pdf.
