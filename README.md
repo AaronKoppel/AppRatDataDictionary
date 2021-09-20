@@ -69,7 +69,7 @@ Importantly, integration efforts must take into account differences in time inte
 
 ## Download
 
-To download the data dictionary and all related files, please click the green "Code" button on the top right of the page and then select the "Download ZIP" from the dropdown menu. Alternatively, you can click [here](https://github.com/AaronKoppel/AppRatDataDictionary/archive/refs/heads/main.zip).
+To download the data dictionary and all related files from this GitHub repository, please click the green "Code" button on the top right of the page and then select the "Download ZIP" from the dropdown menu. Alternatively, you can click [here](https://github.com/AaronKoppel/AppRatDataDictionary/archive/refs/heads/main.zip).
 
 ## References
 
