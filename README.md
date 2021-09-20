@@ -6,6 +6,7 @@
  - [Prerequisites](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#prerequisites)
  - [Usage](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#usage)
  - [Technical Schema](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#technical-schema)
+ - [Download](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#download)
  - [References](https://github.com/AaronKoppel/AppRatDataDictionary/blob/main/README.md#references)
 
 ## Introduction
@@ -65,6 +66,10 @@ It consists of 176 data elements listed in columns.
 A JSON schema for machine-readable data interchanges is provided, along with test data which can be used to validate it. The schema may be integrated into government-wide data collection efforts such as Integrated Data Collection (IDC), which enables the Office of Management and Budget (OMB) to oversee implementation of the Data Center Optimization Initiative (DCOI).
 
 Importantly, integration efforts must take into account differences in time intervals. For instance, while IDC is reported quarterly, IDC Strategic Plans are reported in the spring IDC. Similarly, because the Application Rationalization Data Dictionary is intended to function on an annual basis, integration of the JSON schema should consistently occur at the end of only one IDC quarter per fiscal year.
+
+## Download
+
+To download the data dictionary and all related files, please click the green "Code" button on the top right of the page and then select the "Download ZIP" from the dropdown menu. Alternatively, you can click [here](https://github.com/AaronKoppel/AppRatDataDictionary/archive/refs/heads/main.zip).
 
 ## References
 
