@@ -1,5 +1,5 @@
 ID1,ID2,Name,Description,Type,Values,Codes,Required?,Example,Notes
 1,1.1.1,readiness_assessment,"completion of the application
-rationalization readiness assessment",integer,""true
+rationalization readiness assessment",integer,""true,
 false"","0
 1",yes,0,test
